@@ -13,5 +13,6 @@ class WallController < ApplicationController
     end
   end
   def posts
+    @posts = Post.all
   end
 end
